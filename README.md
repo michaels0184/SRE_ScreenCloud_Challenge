@@ -3,6 +3,9 @@ SRE Challenge for screenCloud
 
 ## Prerequisites ## 
 
+Install LibreOffice for Windows here:
+https://www.libreoffice.org/download/download/
+
 - Findings using parser (parse_logfile.py)
 
 
