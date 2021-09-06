@@ -29,6 +29,7 @@ $: python parse_logfile.py
 ```
 This will parse and format the information from the logfile "sre-challenge.log" and output results into seperate .csv files within the output dir
 
+```bash
 output/
   facebook.csv
   instagram.csv
@@ -36,6 +37,8 @@ output/
   profile.csv
   upload-media.csv
   weather.csv
+```
+
   
 
 ## View results ##
