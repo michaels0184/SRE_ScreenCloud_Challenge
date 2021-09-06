@@ -6,7 +6,28 @@ SRE Challenge for screenCloud
 Install LibreOffice for Windows here:
 https://www.libreoffice.org/download/download/
 
-- Findings using parser (parse_logfile.py)
+Install Python3, version used at time of writing this "Python 3.8.8", select option Windows installer (64-bit) & add Python ENV var to PATh
+https://www.python.org/downloads/release/python-397/
+
+Install VisualStudio Code IDE, select Windows Installer
+https://code.visualstudio.com/download
+
+Checkout remote GitHub repository containing source files to run parser
+$: git clone https://github.com/michaels0184/SRE_ScreenCloud_Challenge.git
+
+## Run the parser ##
+
+Open VSCode and start a new Terminal session within editior, once open make sure to change directory to remote repo
+$: cd SRE_ScreenCloud_Challenge
+
+Now to run the parser, which will parse and format the information from the logfile "sre-challenge" and output results into seperate .csv files within the output dir
+$: python parse_logfile.py
+
+## View results ##
+
+Now open any of the .csv files located within the output dir to find relevant results for a specific path contained within the logs. eg "facebook"
+
+- Combined findings using parser (parse_logfile.py)
 
 
 | Path          | 200 count     | 403 count | 500 count | Total responseTime(ms) | Total no Bytes |
