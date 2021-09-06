@@ -23,7 +23,10 @@ $: cd SRE_ScreenCloud_Challenge
 ```
 
 Now to run the parser, which will parse and format the information from the logfile "sre-challenge" and output results into seperate .csv files within the output dir
+
+```bash
 $: python parse_logfile.py
+```
 
 ## View results ##
 
