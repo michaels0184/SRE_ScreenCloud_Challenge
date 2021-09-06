@@ -57,4 +57,4 @@ Instagram also has 0 recorded successfull 200 logs found which is concerning and
 
 **If we were going to split this application into multiple, what setup might give a good
 effort/reward ratio?**
-A: Due to the nature of upload-media component, it would be wise to split this into it’s own service potentially on another server as it requires the highest no of combined bytes across compared to other components. It might be good also splitting Weather into it's own MicroService and keeping both Facebook & Instagram as one as they are similar.
+A: Due to the nature of upload-media component, it would be wise to split this into it’s own service potentially on another server as it requires the highest no of combined bytes compared to other components. It might be good also splitting Weather into it's own MicroService and keeping both Facebook & Instagram as one as they are similar in nature.
