@@ -6,7 +6,7 @@ SRE Challenge for screenCloud
 Install LibreOffice for Windows here:
 https://www.libreoffice.org/download/download/
 
-Install Python3, version used at time of writing this "Python 3.8.8", select option Windows installer (64-bit) & add Python ENV var to PATH
+Install Python3, version used at time of writing this "Python 3.8.8", select option Windows installer (64-bit) & select the 'add Python ENV var to PATH' option when installing
 https://www.python.org/downloads/release/python-397/
 
 Install VisualStudio Code IDE, select Windows Installer
