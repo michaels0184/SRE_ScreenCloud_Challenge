@@ -18,7 +18,9 @@ $: git clone https://github.com/michaels0184/SRE_ScreenCloud_Challenge.git
 ## Run the parser ##
 
 Open VSCode and start a new Terminal session within editior, once open make sure to change directory to remote repo
+```bash
 $: cd SRE_ScreenCloud_Challenge
+```
 
 Now to run the parser, which will parse and format the information from the logfile "sre-challenge" and output results into seperate .csv files within the output dir
 $: python parse_logfile.py
