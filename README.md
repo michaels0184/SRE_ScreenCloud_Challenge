@@ -22,11 +22,21 @@ Open VSCode and start a new Terminal session within editior, once open make sure
 $: cd SRE_ScreenCloud_Challenge
 ```
 
-Now to run the parser, which will parse and format the information from the logfile "sre-challenge" and output results into seperate .csv files within the output dir
+Now to run the parser
 
 ```bash
 $: python parse_logfile.py
 ```
+This will parse and format the information from the logfile "sre-challenge.log" and output results into seperate .csv files within the output dir
+
+output/
+  facebook.csv
+  instagram.csv
+  profle.csv
+  profile.csv
+  upload-media.csv
+  weather.csv
+  
 
 ## View results ##
 
