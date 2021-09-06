@@ -13,7 +13,9 @@ Install VisualStudio Code IDE, select Windows Installer
 https://code.visualstudio.com/download
 
 Checkout remote GitHub repository containing source files to run parser
+```bash
 $: git clone https://github.com/michaels0184/SRE_ScreenCloud_Challenge.git
+```
 
 ## Run the parser ##
 
